@@ -38,7 +38,7 @@ const turfSchema = new mongoose.Schema(
     sports: [
       {
         type: String,
-        enum: ["cricket", "football", "badminton", "tennis"],
+        enum: ["cricket", "football", "badminton", "tennis", "basketball", "volleyball", "table tennis", "pickleball", "hockey", "kabaddi"],
       },
     ],
 
